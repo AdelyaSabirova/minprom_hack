@@ -49,7 +49,7 @@ def run(
         start_frame = int(video_start_stop[0] * fps)
     end_frame = num_frames
     if video_start_stop[1] is not None:
-        end_frame = int(video_start_stop[1] * fps)
+        end_frame = min(num_frames, int(video_start_stop[1] * fps))
 
     active_hist = set()
 
