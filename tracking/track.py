@@ -149,10 +149,10 @@ def run(
                         cv2.FONT_HERSHEY_SIMPLEX, caption_font_size*3, WHITE, caption_font_thickness*2)
 
         if demo:
-            cv2.putText(frame, "Tracking OFF", (150, 150),
-                        cv2.FONT_HERSHEY_SIMPLEX, caption_font_size*5, RED, caption_font_thickness*4)
-            cv2.putText(frame, "Tracking ON", (150 + img_w, 150),
-                        cv2.FONT_HERSHEY_SIMPLEX, caption_font_size*5, GREEN, caption_font_thickness*4)
+            cv2.putText(frame, "Tracking OFF", (50, 50),
+                        cv2.FONT_HERSHEY_SIMPLEX, caption_font_size*2, RED, caption_font_thickness*1)
+            cv2.putText(frame, "Tracking ON", (50 + img_w, 50),
+                        cv2.FONT_HERSHEY_SIMPLEX, caption_font_size*2, GREEN, caption_font_thickness*1)
 
         # Write
         writer.write(frame)
