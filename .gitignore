@@ -1,0 +1,29 @@
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore editors and IDE settings
+*.vscode/
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log and database files
+*.log
+*.sqlite3
+
+# Ignore file artifacts
+*.py[co]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
