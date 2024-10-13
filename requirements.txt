@@ -3,3 +3,4 @@ opencv-python==4.9.0.80
 boxmot
 albumentations
 tqdm
+click
