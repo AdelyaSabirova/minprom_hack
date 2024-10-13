@@ -1,0 +1,24 @@
+path: /mnt/hdd1/Datasets/train_dataset_minpromtorg_train_dataset/photo/
+
+train: 
+    - train.txt
+    - /home/alex/nkbtech/hdd4/Datasets/sod4bird/cutted_images/IR/style1/images
+    # - ../mixed/images
+    - /home/alex/nkbtech/hdd1/Datasets/rgb_ir/style1/images_with_small_boxes.txt
+    - /home/alex/nkbtech/hdd4/Datasets/cifrovoy_proryv/birds_ir/train/images
+    - /home/alex/nkbtech/hdd4/Datasets/cifrovoy_proryv/birds_ir/test/images
+    - /home/alex/nkbtech/hdd4/Datasets/cifrovoy_proryv/birds_ir/valid/images
+    - /home/alex/nkbtech/hdd4/Datasets/cifrovoy_proryv/birds_drones_ir/train/images
+    - /home/alex/nkbtech/hdd4/Datasets/cifrovoy_proryv/birds_valid/valid/images
+    - /home/alex/nkbtech/hdd4/Datasets/cifrovoy_proryv/infr_brids/train/images
+    - backgrounds/images
+    - /home/alex/nkbtech/hdd1/Datasets/minpromhack/gen_images_6k/images
+    - val.txt
+
+val: 
+    - val_aug.txt
+
+nc: 2
+names:
+    0: plane
+    1: helicopter

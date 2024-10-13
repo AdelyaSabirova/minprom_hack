@@ -1,0 +1,10 @@
+path: /mnt/hdd1/Datasets/train_dataset_minpromtorg_train_dataset/photo/
+
+train: train.txt
+val: val.txt
+test: val_aug.txt
+
+nc: 2
+names:
+    0: plane
+    1: helicopter
